@@ -1,0 +1,3 @@
+﻿  Array.cpp
+C:\Users\PC\Documents\GitHub\CPPStudy\Array\Array.cpp(6,9): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+  Array.vcxproj -> C:\Users\PC\Documents\GitHub\CPPStudy\Array\x64\Debug\Array.exe
