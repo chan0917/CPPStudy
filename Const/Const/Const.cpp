@@ -15,7 +15,11 @@ class COOnst
         const int* p = &b; //포인터가 가르키는 변수값을 상수화 
         int* const pp = &b; //포인터 변수 자체를 상수화 시킨다 
         *pp = a; //pp의 주소값을 바꾸느 것은 불가능
-        
+
+        constFC ;
+     
+
+
         cout << " " << endl;
     }
 
@@ -23,5 +27,13 @@ class COOnst
 
 
     COOnst(void) : num(3) {}; //class나 struct의 멤버 변수를 const로 선언 시에느 반드시 **초기화 리스트** 사용
+
+};
+
+class constFC
+{
+    public:
+        void printA() const { cout << "const print" << endl; }; //const 멤버 함수는 **오버 로딩**이 가능하다 
+   
 
 };
