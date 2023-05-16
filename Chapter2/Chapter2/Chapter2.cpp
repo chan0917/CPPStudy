@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Bool || Reference(1)";
 
     cout << "true: " << true << endl;
 
@@ -17,8 +17,9 @@ int main()
     int num1 = 2000;
     int& num2 = num1;
     num2 = 1000;
+    cout << &num1 << endl;
     cout << &num2 << endl;
-    cout << num1 << endl; //참조자는 변수에 별명을 하나 g붙이는 것이다 ex) "예찬아 늦었어" == "하야시 늦었어"
+    cout << num1 << endl << endl; //참조자는 변수에 별명을 하나 붙이는 것이다 
 
     cout << "Reference(2)" << endl;
     //참조자는 참조자를 대상으로 선언가능   변수에 대해서만 선언가능 | 나중에 참조 불가능 | NULL초기화 불가능 
