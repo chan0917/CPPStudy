@@ -31,7 +31,7 @@ int main()
 
     cout << ref1 << endl;
     cout << ref2 << endl;
-    cout << ref3 << endl;
+    cout << ref3 << endl << endl;
     REF();
 }
 
