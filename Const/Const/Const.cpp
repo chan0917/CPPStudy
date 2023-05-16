@@ -1,10 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-class COOnst
-{
 
-    const int num;
 
     int main()
     {
@@ -16,24 +13,20 @@ class COOnst
         int* const pp = &b; //포인터 변수 자체를 상수화 시킨다 
         *pp = a; //pp의 주소값을 바꾸느 것은 불가능
 
-        constFC ;
      
+      //  void COOnst(void) : num(3) {}; //class나 struct의 멤버 변수를 const로 선언 시에느 반드시 **초기화 리스트** 사용
 
-
-        cout << " " << endl;
+        int num1 = FF();
     }
 
-    int Function(const int num1, const int num2); //함수의파라미터를 함수내에서 변경하면 안 될 때
+    int F(const int num1, const int num2) //함수의파라미터를 함수내에서 변경하면 안 될 때
+    {
+        return 0;
+    }
+
+    const int FF() //return 값을 상수화 시킴 
+    {
+        return 10;
+    }
 
 
-    COOnst(void) : num(3) {}; //class나 struct의 멤버 변수를 const로 선언 시에느 반드시 **초기화 리스트** 사용
-
-};
-
-class constFC
-{
-    public:
-        void printA() const { cout << "const print" << endl; }; //const 멤버 함수는 **오버 로딩**이 가능하다 
-   
-
-};
