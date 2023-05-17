@@ -1,7 +1,8 @@
 #include <iostream>
+#include "Chapter2.h"
 using namespace std;
 
-static void REF() //static 안넣으면 에러남 
+void C2::REF() //static 안넣으면 에러남 
 {
 	cout << "ReferenceANDPointer" << endl;
 	int num = 12;

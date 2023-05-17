@@ -2,7 +2,7 @@
 #include "Chapter2.h"
 using namespace std;
 
-static void RNF()
+void C2::RNF()
 {
 	C2 c2;
 	cout << "Reference and Function" << endl;

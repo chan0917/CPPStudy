@@ -2,8 +2,7 @@
 //
 
 #include <iostream>
-#include "Reference.cpp"
-#include "ReferenceNFunction.cpp"
+#include "Chapter2.h"
 #define TRUE 1
 #define FALSE 0 //true와 false는 1과 0이 아니다. 그저 '참'과 '거짓'을 표현하기위한 1바이트 크기의 데이터일 뿐이다 
 using namespace std;
@@ -11,6 +10,7 @@ using namespace std;
 
 int main()
 {
+    C2 c2;
     std::cout << "Bool || Reference(1)";
 
     cout << "true: " << true << endl;
@@ -34,8 +34,8 @@ int main()
     cout << ref1 << endl;
     cout << ref2 << endl;
     cout << ref3 << endl << endl;
-    REF();
-    RNF();
+    c2.REF();
+    c2.RNF();
 }
 
 
