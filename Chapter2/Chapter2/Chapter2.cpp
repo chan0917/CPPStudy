@@ -3,9 +3,11 @@
 
 #include <iostream>
 #include "Reference.cpp"
+#include "ReferenceNFunction.cpp"
 #define TRUE 1
 #define FALSE 0 //true와 false는 1과 0이 아니다. 그저 '참'과 '거짓'을 표현하기위한 1바이트 크기의 데이터일 뿐이다 
 using namespace std;
+
 
 int main()
 {
@@ -33,6 +35,7 @@ int main()
     cout << ref2 << endl;
     cout << ref3 << endl << endl;
     REF();
+    RNF();
 }
 
 

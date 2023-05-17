@@ -21,5 +21,5 @@ static void REF() //static 안넣으면 에러남
 
 	cout << ref << endl;
 	cout << *pref << endl;
-	cout << **dpref << endl;
+	cout << **dpref << endl << endl;
 }
