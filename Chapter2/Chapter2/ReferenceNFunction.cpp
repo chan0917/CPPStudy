@@ -14,7 +14,7 @@ void C2::RNF()
 
 	c2.RefSwap(val1, val2);
 	cout << val1 << endl;
-	cout << val2 << endl;
+	cout << val2 << endl << endl;
 }
 
  void C2::Swap(int* ptr1, int* ptr2)

@@ -36,6 +36,25 @@ int main()
     cout << ref3 << endl << endl;
     c2.REF();
     c2.RNF();
+
+    cout << "TEST02-1" << endl;
+    int T_num = 10;
+    c2.T_1_1(T_num);
+    c2.T_1_2(T_num);
+
+    cout << "TEST3" << endl;
+    int nnum1 = 51231;
+    int* p1 = &nnum1;
+
+    int nnum2 = 10;
+    int* p2 = &nnum2;
+    cout << p1 << endl;
+    cout << p2 << endl;
+    c2.T_3(p1, p2);
+    cout << p1 << endl;
+    cout << p2 << endl;
+
+
 }
 
 

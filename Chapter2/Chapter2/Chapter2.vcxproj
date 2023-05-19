@@ -130,6 +130,7 @@
     <ClCompile Include="Chapter2.cpp" />
     <ClCompile Include="Reference.cpp" />
     <ClCompile Include="ReferenceNFunction.cpp" />
+    <ClCompile Include="TEST.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter2.h" />
