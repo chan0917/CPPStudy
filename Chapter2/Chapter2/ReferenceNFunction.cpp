@@ -10,6 +10,10 @@ void C2::RNF()
 	int val2 = 20;
 	c2.Swap(&val1, &val2);
 	cout << val1 << endl;
+	cout << val2 << endl<< endl;
+
+	c2.RefSwap(val1, val2);
+	cout << val1 << endl;
 	cout << val2 << endl;
 }
 
@@ -20,3 +24,10 @@ void C2::RNF()
 	*ptr2 = num;
 	//Call-by-reference
 }
+
+ void C2::RefSwap(int &ref1, int &ref2)
+ {
+	 int temp = ref1;
+	 ref1 = ref2;
+	 ref2 = temp;
+ }
