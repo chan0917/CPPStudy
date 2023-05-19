@@ -31,3 +31,9 @@ void C2::RNF()
 	 ref1 = ref2;
 	 ref2 = temp;
  }
+
+ int& C2::RefReturn(int& ref)
+ {
+	 ref++;
+	 return ref;
+ }

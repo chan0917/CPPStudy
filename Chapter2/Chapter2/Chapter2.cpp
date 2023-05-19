@@ -45,16 +45,19 @@ int main()
     cout << "TEST3" << endl;
     int nnum1 = 51231;
     int* p1 = &nnum1;
-
     int nnum2 = 10;
     int* p2 = &nnum2;
     cout << p1 << endl;
     cout << p2 << endl;
     c2.T_3(p1, p2);
     cout << p1 << endl;
-    cout << p2 << endl;
+    cout << p2 << endl << endl;
 
-
+    cout << "반환형이 참조자" << endl;
+    int R_num1 = 1;
+    int& R_num2 = c2.RefReturn(R_num1);
+    cout << &R_num1 << endl;
+    cout << &R_num2 << endl;
 }
 
 
