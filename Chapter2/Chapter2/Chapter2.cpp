@@ -57,7 +57,11 @@ int main()
     int R_num1 = 1;
     int& R_num2 = c2.RefReturn(R_num1);
     cout << &R_num1 << endl;
-    cout << &R_num2 << endl;
+    cout << &R_num2 << endl << endl;
+
+    cout << "const" << endl;
+    const int nuum = 20;
+    const int& ref = nuum; //이러면 ref값도 const여서 변경불가능 함으로 ㄱㄴ
 }
 
 
