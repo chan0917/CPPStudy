@@ -14,7 +14,7 @@ void C2::T_1_2(int& num)
 	cout << num << endl << endl;
 }
 
-void C2::T_3(int*(& num1), int* (&ref2)) //&num = 주소값 *로 입력받은 주소값을 &num이 참조하도록 함
+void C2::T_1_3(int*(& num1), int* (&ref2)) //&num = 주소값 *로 입력받은 주소값을 &num이 참조하도록 함
 {
 
 	int* num = num1; // 변수 값의 주소로 num 초기화

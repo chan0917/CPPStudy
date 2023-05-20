@@ -42,14 +42,14 @@ int main()
     c2.T_1_1(T_num);
     c2.T_1_2(T_num);
 
-    cout << "TEST3" << endl;
+    cout << "TEST1_3" << endl;
     int nnum1 = 51231;
     int* p1 = &nnum1;
     int nnum2 = 10;
     int* p2 = &nnum2;
     cout << p1 << endl;
     cout << p2 << endl;
-    c2.T_3(p1, p2);
+    c2.T_1_3(p1, p2);
     cout << p1 << endl;
     cout << p2 << endl << endl;
 
@@ -59,9 +59,12 @@ int main()
     cout << &R_num1 << endl;
     cout << &R_num2 << endl << endl;
 
-    cout << "const" << endl;
+    cout << "const" << endl <<endl;
     const int nuum = 20;
     const int& ref = nuum; //이러면 ref값도 const여서 변경불가능 함으로 ㄱㄴ
+
+    cout << "TEST2" << endl;
+    c2.T_2();
 }
 
 

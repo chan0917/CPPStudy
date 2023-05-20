@@ -8,8 +8,8 @@ class C2
 		void REF();
 		void T_1_1(int &num);
 		void T_1_2(int &num);
-		void T_3(int*(& ref1), int*(& ref2));
+		void T_1_3(int*(& ref1), int*(& ref2));
 
 		int& RefReturn(int& ref);
-
+		void T_2();
 };
