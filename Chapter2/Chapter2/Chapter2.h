@@ -14,4 +14,5 @@ class C2
 		void T_2();
 
 		void NewDelete();
+		void T_3();
 };

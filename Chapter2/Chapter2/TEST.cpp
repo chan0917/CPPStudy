@@ -31,3 +31,8 @@ void C2::T_2()
 	cout << *ref << endl << endl;
 
 }
+
+void C2::T_3()
+{
+	//need to learn more Structer, Object, and Point
+}

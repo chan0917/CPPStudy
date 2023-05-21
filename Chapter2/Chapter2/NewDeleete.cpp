@@ -15,3 +15,5 @@ void C2::NewDelete()
 
 	//new와 malloc 함수의 동작방식에는 차이가 있다
 }
+
+
