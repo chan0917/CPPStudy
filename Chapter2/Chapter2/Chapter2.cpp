@@ -65,6 +65,7 @@ int main()
 
     cout << "TEST2" << endl;
     c2.T_2();
+    c2.NewDelete();
 }
 
 

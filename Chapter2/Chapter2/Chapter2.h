@@ -12,4 +12,6 @@ class C2
 
 		int& RefReturn(int& ref);
 		void T_2();
+
+		void NewDelete();
 };

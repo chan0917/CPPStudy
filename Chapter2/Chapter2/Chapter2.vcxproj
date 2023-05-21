@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Chapter2.cpp" />
+    <ClCompile Include="NewDeleete.cpp" />
     <ClCompile Include="Reference.cpp" />
     <ClCompile Include="ReferenceNFunction.cpp" />
     <ClCompile Include="TEST.cpp" />

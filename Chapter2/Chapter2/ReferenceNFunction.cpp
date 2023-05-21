@@ -38,12 +38,4 @@ void C2::RNF()
 	 return ref;
  }
 
- void C2::T_2()
- {
-	 const int num = 12;
-	 const int* ptr = &num;
-	 const int* (&ref) = ptr;
-	 cout << *ptr << endl;
-	 cout << *ref << endl << endl;
-
- }
+ 
