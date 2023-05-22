@@ -25,7 +25,7 @@ struct C3::Car
 	{
 		if (fuelGauge <= 0)
 			return;
-		else  
+		else
 			fuelGauge -= FUEL_STEP;
 
 		if (curSpeed + ACC_STEP >= MAX_SPD)
@@ -48,4 +48,6 @@ struct C3::Car
 
 		curSpeed -= BRK_STEP;
 	}
-}Car;
+};
+
+C3::Car A;

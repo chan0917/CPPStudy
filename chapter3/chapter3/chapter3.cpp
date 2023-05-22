@@ -2,12 +2,14 @@
 #include "Chapter3.h"
 using namespace std;
 
+struct C3::Car Car;
+
 int main()
 {
     C3 c3;
     
     cout << "Chapter3" << endl;
-    //C3::Car A = {"A", 100, 0};
+    
     
 }
 
