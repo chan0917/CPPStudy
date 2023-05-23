@@ -10,6 +10,9 @@ int main()
     cout << "Chapter3" << endl;
     c3.A();
     
+    cout << " " << endl;
+    cout << "TEST1" << endl;
+    c3.T1();
 }
 
 

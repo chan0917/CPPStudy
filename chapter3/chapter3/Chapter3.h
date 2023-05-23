@@ -52,4 +52,22 @@ class C3
 			}
 		};
 		void A();
+
+		struct T1_Point 
+		{
+			int xpos;
+			int ypos;
+
+			void MovePos(int x, int y)
+			{
+				xpos += x;
+				ypos += y;
+			}
+
+			void ShowPosition()
+			{
+				cout << xpos << ", " << ypos << endl << endl;
+			}
+		};
+		void T1();
 };

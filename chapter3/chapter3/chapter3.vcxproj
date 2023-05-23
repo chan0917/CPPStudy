@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="chapter3.cpp" />
     <ClCompile Include="StructCar.cpp" />
+    <ClCompile Include="TEST.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Chapter3.h" />
