@@ -13,6 +13,9 @@ int main()
     cout << " " << endl;
     cout << "TEST1" << endl;
     c3.T1();
+
+    enum C3::Color Custom;
+    Custom = c3.Red;
 }
 
 

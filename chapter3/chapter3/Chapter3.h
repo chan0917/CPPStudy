@@ -70,4 +70,6 @@ class C3
 			}
 		};
 		void T1();
+
+		enum Color { Yellow = 1, Red };
 };
