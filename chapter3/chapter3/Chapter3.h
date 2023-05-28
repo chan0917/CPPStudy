@@ -23,23 +23,8 @@ class C3
 				cout << "현재속도: " << curSpeed << endl;
 			}
 
-			void Accel()
-			{
-				if (fuelGauge <= 0)
-					return;
-				else
-					fuelGauge -= FUEL_STEP;
-
-				if (curSpeed + ACC_STEP >= MAX_SPD)
-				{
-					curSpeed = MAX_SPD;
-					return;
-				}
-
-				curSpeed += ACC_STEP;
-
-			}
-
+			void Accel();
+			
 			void Breaking()
 			{
 				if (curSpeed < BRK_STEP)

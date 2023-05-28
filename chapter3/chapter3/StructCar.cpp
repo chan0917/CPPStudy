@@ -8,6 +8,21 @@ void C3::A()
 	A.Accel();
 	A.Accel();
 	A.ShowCarState();
-	A.Breaking();
+	/*void C3::Car()
+	{
+		if (fuelGauge <= 0)
+			return;
+		else
+			fuelGauge -= FUEL_STEP;
+
+		if (curSpeed + ACC_STEP >= MAX_SPD)
+		{
+			curSpeed = MAX_SPD;
+			return;
+		}
+
+		curSpeed += ACC_STEP;
+
+	}*/
 	A.ShowCarState();
 }
