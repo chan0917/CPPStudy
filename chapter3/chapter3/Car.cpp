@@ -37,7 +37,10 @@ void Car::Break()
 //int Main()
 //{
 //	Car run99;
-//	run99.InitMembers("run99", 100);
+//	char C_name;
+//	cout << "Â÷ ÀÌ¸§: ";
+//	cin >> C_name;
+//	run99.InitMembers(&C_name, 100);
 //	run99.Accel();
 //	run99.Accel();
 //	run99.ShowCarState();
