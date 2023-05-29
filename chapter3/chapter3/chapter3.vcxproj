@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="chapter3.cpp" />
+    <ClCompile Include="ClassandObject.cpp" />
     <ClCompile Include="StructCar.cpp" />
     <ClCompile Include="TEST.cpp" />
   </ItemGroup>
