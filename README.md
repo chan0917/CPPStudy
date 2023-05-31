@@ -17,3 +17,6 @@ public public
     
     public int a;
     cout << "Learning README" << endl;
+
+
+for anyone to see my message please fix bug in my project it will be in // xd
