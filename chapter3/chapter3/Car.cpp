@@ -44,4 +44,5 @@ void Car::Break()
 //	run99.Accel();
 //	run99.Accel();
 //	run99.ShowCarState();
-//}
+//eese}
+//inline 함수는 헤더파일에 넣기
