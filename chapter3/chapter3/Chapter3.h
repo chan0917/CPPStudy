@@ -76,4 +76,5 @@ public:
 	double Min(double num1, double num2);
 	double Ful(double num1, double num2);
 	double Div(double num1, double num2);
+	void Show();
 };

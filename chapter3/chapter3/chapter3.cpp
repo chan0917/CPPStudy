@@ -18,7 +18,13 @@ int main()
     enum C3::Color Custom;
     Custom = c3.Red;
 
-    
+    T t;
+    t.Init();
+    cout << "5 + 6 = " << t.Add(5, 6) << endl;
+    cout << "2 + 3 = " << t.Add(2, 3) << endl;
+    cout << "4 * 2 = " << t.Ful(4, 2) << endl;
+    t.Show();
+
 }
 
 
