@@ -1,10 +1,10 @@
 #pragma once
-
+#ifndef __CAR_H__
 namespace CAR_CONST
 {
-	enum 
+	enum
 	{
-		ID_LEN = 20, MAX_SPD = 200, FUEL_STEP = 2, ACC_STEP = 10, BRK_STEP =10
+		ID_LEN = 20, MAX_SPD = 200, FUEL_STEP = 2, ACC_STEP = 10, BRK_STEP = 10
 	};
 }
 
@@ -21,3 +21,5 @@ public:
 	void Accel();
 	void Break();
 };
+
+#endif // !__CAR_H__

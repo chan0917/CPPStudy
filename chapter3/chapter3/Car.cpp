@@ -5,7 +5,8 @@ using namespace std;
 
 void Car::InitMembers(char* ID, int fuel)
 {
-	strcpy(gamerID, ID);
+	Car car;
+	strcpy_s(gamerID, ID);
 	fuelGauge = fuel;
 	curSpeed = 0;
 }

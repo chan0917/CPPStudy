@@ -4,10 +4,10 @@ using namespace std;
 
 void C3::A()
 {
-	C3::Car A = { "A", 100, 0 };
+	/*C3::Car A = { "A", 100, 0 };
 	A.Accel();
 	A.Accel();
-	A.ShowCarState();
+	A.ShowCarState();*/
 	/*void C3::Car()
 	{
 		if (fuelGauge <= 0)
@@ -24,5 +24,5 @@ void C3::A()
 		curSpeed += ACC_STEP;
 
 	}*/
-	A.ShowCarState();
+	
 }

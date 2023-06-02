@@ -61,7 +61,7 @@ class C3
 		void CnO();
 };
 
-class TEST 
+class T
 {
 private:
 	int NumAdd;

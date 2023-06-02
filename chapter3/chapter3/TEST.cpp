@@ -10,20 +10,21 @@ void C3::T1()
 
 }
 
-void TEST::T_3_1()
+void T::T_3_1()
 {
 
 }
 
-void TEST::Init()
+void T::Init()
 {
-	TEST::NumAdd = 0;
-	TEST::NumMin = 0;
-	TEST::NumFul = 0;
-	TEST::NumDiv = 0;
+	T::NumAdd = 0;
+	T::NumMin = 0;
+	T::NumFul = 0;
+	T::NumDiv = 0;
 }
 
-double TEST::Add(double num1, double num2)
+double T::Add(double num1, double num2)
 {
 
+	return num1 + num2;
 }
