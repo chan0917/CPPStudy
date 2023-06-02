@@ -1,5 +1,19 @@
-﻿  chapter3.cpp
-  StructCar.cpp
+﻿  Car.cpp
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Car.cpp(1,1): warning C4828: 파일에 0x30d 오프셋에서 시작하는 문자가 포함되어 있습니다. 이 문자는 현재 원본 문자 집합에서 잘못된 문자입니다(코드 페이지 949).
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Car.cpp(8,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  chapter3.cpp
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Car.h(7,16): error C2143: 구문 오류: '}'이(가) '상수' 앞에 없습니다.
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Car.h(7,16): error C2059: 구문 오류: '상수'
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Car.h(8,2): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Car.h(9,1): error C2059: 구문 오류: '}'
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Car.h(9,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Car.h(12,1): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Car.h(12,1): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+  ClassandObject.cpp
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\ClassandObject.cpp(9,10): error C2039: 'CanF': 'TEST'의 멤버가 아닙니다.
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Chapter3.h(64): message : 'TEST' 선언을 참조하십시오.
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\ClassandObject.cpp(16,1): error C2011: 'TEST': 'class' 형식 재정의
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\Chapter3.h(64): message : 'TEST' 선언을 참조하십시오.
   TEST.cpp
   코드를 생성하고 있습니다...
-  chapter3.vcxproj -> C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\x64\Debug\chapter3.exe
+C:\Users\CHAN\Documents\GitHub\CPPStudy\chapter3\chapter3\TEST.cpp(29): error C4716: 'TEST::Add': 값을 반환해야 합니다.

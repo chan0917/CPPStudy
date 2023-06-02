@@ -8,6 +8,22 @@ void C3::T1()
 	pos1.MovePos(-5, 10);
 	pos1.ShowPosition();
 
-	
+}
+
+void TEST::T_3_1()
+{
+
+}
+
+void TEST::Init()
+{
+	TEST::NumAdd = 0;
+	TEST::NumMin = 0;
+	TEST::NumFul = 0;
+	TEST::NumDiv = 0;
+}
+
+double TEST::Add(double num1, double num2)
+{
 
 }

@@ -60,3 +60,20 @@ class C3
 
 		void CnO();
 };
+
+class TEST 
+{
+private:
+	int NumAdd;
+	int NumMin;
+	int NumFul;
+	int NumDiv;
+
+public:
+	void T_3_1();
+	void Init();
+	double Add(double num1, double num2);
+	double Min(double num1, double num2);
+	double Ful(double num1, double num2);
+	double Div(double num1, double num2);
+};
