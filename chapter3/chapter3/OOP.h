@@ -9,7 +9,7 @@ private:
 
 public:
 	void InitMembers(int price, int num, int money);
-	void SaleApples(int money);
+	int SaleApples(int money);
 	void ShowSalesResult();
 };
 

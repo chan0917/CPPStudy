@@ -130,12 +130,14 @@
     <ClCompile Include="Car.cpp" />
     <ClCompile Include="chapter3.cpp" />
     <ClCompile Include="ClassandObject.cpp" />
+    <ClCompile Include="OOP.cpp" />
     <ClCompile Include="StructCar.cpp" />
     <ClCompile Include="TEST.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
     <ClInclude Include="Chapter3.h" />
+    <ClInclude Include="OOP.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
