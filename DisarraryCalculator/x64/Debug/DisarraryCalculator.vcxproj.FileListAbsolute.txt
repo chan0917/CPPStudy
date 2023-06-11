@@ -1,1 +1,2 @@
 C:\Users\PC\Documents\GitHub\CPPStudy\DisarraryCalculator\x64\Debug\DisarraryCalculator.exe
+C:\Users\CHAN\Documents\GitHub\CPPStudy\DisarraryCalculator\x64\Debug\DisarraryCalculator.exe
