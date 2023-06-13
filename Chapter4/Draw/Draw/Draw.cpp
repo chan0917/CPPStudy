@@ -1,11 +1,30 @@
-﻿// Draw.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
-
-#include <iostream>
+﻿#include <iostream>
+#include "Point.h"
+#include "Rectangle.h"
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Point pos1; //Point클래스에서 pos1이라는 상자를 하나 더 만든다는 느낌
+    if (!pos1.InitMembers(-2, 4))
+        cout << "초기화 실패" << endl;
+    
+    if (!pos1.InitMembers(2, 4))
+        cout << "초기화 실패" << endl;
+
+    Point pos2;
+    if (!pos2.InitMembers(5, 9))
+        cout << "초기화 실패" << endl;
+
+    Rectangle rec;
+    if (!rec.InitMembers(pos2, pos1))
+        cout << "직사각형 초기화 실패" << endl;
+    
+    if (!rec.InitMembers(pos1, pos2))
+        cout << "직사각형 초기화 실패" << endl;
+
+    rec.ShowRecInfo();
+    return 0;
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
